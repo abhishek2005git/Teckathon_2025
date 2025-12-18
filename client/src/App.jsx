@@ -115,6 +115,7 @@ function App() {
             />
             <TechnicalDNA 
               domain={result.report?.domain} 
+              urlStructure={result.report?.urlStructure}
             />
             <URLStructure 
               structure={result.report?.urlStructure} 
